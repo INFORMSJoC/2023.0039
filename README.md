@@ -33,4 +33,10 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-The [data folder](data) includes the arrival rate data for first-time and crisis customers and the optimal schedule proportions for both service types for all the cases in Table 1 and Figure 9 of the paper. It also contains the schedule proportions obtained using the DPS policy, as shown in Figure 10 of the paper. The Python codes and Simio files are available upon request.
+The [data folder](data) includes the arrival rate data for first-time and crisis customers and the optimal schedule proportions for both service types for all the cases in Table 1 and Figure 9 of the paper. It also contains the schedule proportions obtained using the DPS policy, as shown in Figure 10 of the paper. Refer to the [README.md file in that folder](data/README.md) for more details on the data.
+
+The [scripts folder](scripts) includes all the Python codes required to generate the various scheduling polcies used in this paper, as well as the results in the Online Supplement. It also includes a 'requirements.txt' file that can be used to load the relevant packages needed to run the scripts into a virtual Python environment. Note that to run some of the scripts, a license of the Gurobi solver will be required. Refer to the [README.md file in that folder](scripts/README.md) for more details on the parameters needed for the scripts.
+
+## Contact
+If you have any question please contact me at:
+- Sohom Chatterjee (sohom070994@gmail.com)
